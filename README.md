@@ -51,7 +51,7 @@ Server runs on http://localhost:5000
 You can filter by genre sort the book list:
 
 ```http
-GET /api/books?filter=FICTION&sortBy=title&sort=asc&limit=5
+GET routes/api/books?filter=FICTION&sortBy=title&sort=asc&limit=5
 ```
 
 **Borrow Routes:**
