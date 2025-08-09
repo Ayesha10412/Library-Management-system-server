@@ -51,14 +51,14 @@ Server runs on http://localhost:5000
 You can filter by genre sort the book list:
 
 ```http
-GET routes/api/books?filter=FICTION&sortBy=title&sort=asc&limit=5
+GET /routes/api/books?filter=FICTION&sortBy=title&sort=asc&limit=5
 ```
 
 **Borrow Routes:**
 | Method | Endpoint | Description |
 | :-------- | :------- | :-------------------------------- |
-| `POST` | `route/api/borrow` | Borrow a book(reduces copy count)|
-| `GET` | `route/api/borrow` | Get borrow summary with total quantity per book|
+| `POST` | `routes/api/borrow` | Borrow a book(reduces copy count)|
+| `GET` | `routes/api/borrow` | Get borrow summary with total quantity per book|
 
 #### Borrow logic:
 
